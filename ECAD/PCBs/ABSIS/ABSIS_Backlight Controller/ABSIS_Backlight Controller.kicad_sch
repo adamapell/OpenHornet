@@ -9486,6 +9486,16 @@
 		)
 		(uuid "4e43f62a-efe7-4a42-b5d7-9137aa7a87be")
 	)
+	(text "Port G & J share the same DMAMUX2 and so write to the mux will copy to each port accordingly.  LPTIM1 will directly control the mux and thus can fire teh dma engine directly via hardware instead of TIM6 which woul dneed an intermediary."
+		(exclude_from_sim no)
+		(at -134.62 -2.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5922a3df-76f1-418f-b695-40fbfe0ec931")
+	)
 	(text "Note:  All connectors associated with backlighting channels (BL#1 thru BL#10) are \n       Molex Mini-Fit Jr. 2x02 (Part Number: 39-28-1043)"
 		(exclude_from_sim no)
 		(at 447.675 22.86 0)
@@ -13147,6 +13157,16 @@
 		)
 		(uuid "765460ab-4fea-4dab-9c94-2786eb14e0f3")
 	)
+	(label "+12V_SUPPLY"
+		(at -168.91 252.73 180)
+		(effects
+			(font
+				(size 0.7874 0.7874)
+			)
+			(justify right bottom)
+		)
+		(uuid "76ab1424-9d0b-477f-ab96-06de16234f02")
+	)
 	(label "SCL"
 		(at 82.55 120.65 0)
 		(effects
@@ -13447,6 +13467,16 @@
 		)
 		(uuid "a493a5f2-98d4-45b7-86a7-934cd680bb37")
 	)
+	(label "+5V_SUPPLY"
+		(at -168.91 247.65 180)
+		(effects
+			(font
+				(size 0.7874 0.7874)
+			)
+			(justify right bottom)
+		)
+		(uuid "a541fcf4-8ce9-4272-8a25-467518a4d637")
+	)
 	(label "31(PJ3)"
 		(at 68.58 234.95 270)
 		(effects
@@ -13477,7 +13507,7 @@
 		)
 		(uuid "abfb35e1-79ca-4e81-82af-beabf9b8815c")
 	)
-	(label "VCC"
+	(label "+5V"
 		(at -40.64 227.33 180)
 		(effects
 			(font
@@ -13947,16 +13977,6 @@
 		)
 		(uuid "ebcca288-cad7-4461-bf7d-d6817a218c6e")
 	)
-	(label "+5V_SUPPLY"
-		(at -168.91 252.73 180)
-		(effects
-			(font
-				(size 0.7874 0.7874)
-			)
-			(justify right bottom)
-		)
-		(uuid "eddd35b7-724f-4092-827e-fee9aadab5d1")
-	)
 	(label "41(PK7)"
 		(at 55.88 234.95 270)
 		(effects
@@ -14046,16 +14066,6 @@
 			(justify right bottom)
 		)
 		(uuid "f76dbc80-6058-4b47-bc38-d2a109f5f790")
-	)
-	(label "+12V_SUPPLY"
-		(at -168.91 247.65 180)
-		(effects
-			(font
-				(size 0.7874 0.7874)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa33bb3b-15ca-4d19-a1f7-6d6b1016ef23")
 	)
 	(label "36(PK6)"
 		(at 60.96 217.17 90)
@@ -14936,7 +14946,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 83.82 216.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20270,7 +20280,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at -51.689 245.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20877,7 +20887,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at -44.069 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21068,7 +21078,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 30.48 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21428,7 +21438,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 57.15 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24111,7 +24121,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 125.73 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)

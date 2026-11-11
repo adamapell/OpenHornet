@@ -1,0 +1,6 @@
+1:  This PCB only has Top Layer components for automated assembly and will only have a "BOM_TOP-CONTROLLER_AMPCD DDI.csv"
+2:  Bottom layer components are connectors only
+2:  This is a 4 layer board
+3:  Outer copper layers shall be 1oz copper
+4:  Inner copper layers shall be 0.5oz copper
+5:  This board is impedance controlled and requires the JLCPCB stack-up - JLC04161H-7628

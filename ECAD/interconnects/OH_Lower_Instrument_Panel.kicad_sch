@@ -76819,7 +76819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a64f7b8-bf62-4f09-b886-90030b7b16f1")
-		(property "Reference" "A2A7A1"
+		(property "Reference" "2A7A1"
 			(at 502.158 279.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -77085,7 +77085,7 @@
 		(instances
 			(project "OH_Interconnect"
 				(path "/c92a348b-dd3f-4dc8-9722-67732537f6b5/00000000-0000-0000-0000-0000630613fb"
-					(reference "A2A7A1")
+					(reference "2A7A1")
 					(unit 1)
 				)
 			)

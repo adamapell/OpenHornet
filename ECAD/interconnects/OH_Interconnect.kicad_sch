@@ -10170,6 +10170,97 @@
 			)
 		)
 		(column_widths 4.445 72.39 13.97 14.605)
+		(row_heights 21.59)
+		(uuid "23fe0365-e18a-4c99-8237-2fcaef117bca")
+		(cells
+			(table_cell "C"
+				(exclude_from_sim no)
+				(at 746.125 66.675 0)
+				(size 4.445 21.59)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+				(uuid "394d149d-50c1-4217-835e-106722f2a593")
+			)
+			(table_cell "LIP: UPDATED STANDBY CONTROLLER SYMBOL\n  FOR NEW PINOUT CONFIGURATION (#1300)"
+				(exclude_from_sim no)
+				(at 750.57 66.675 0)
+				(size 72.39 21.59)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c756e934-0711-4eda-8bf7-ad2ac8689487")
+			)
+			(table_cell "11/13/2026"
+				(exclude_from_sim no)
+				(at 822.96 66.675 0)
+				(size 13.97 21.59)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "555665e9-8fee-487a-a5df-833da7455522")
+			)
+			(table_cell "A. APELL"
+				(exclude_from_sim no)
+				(at 836.93 66.675 0)
+				(size 14.605 21.59)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "fad65fa0-f0a0-4d9e-9fc2-6f889d1f1b7a")
+			)
+		)
+	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 4.445 72.39 13.97 14.605)
 		(row_heights 3.175 3.175 3.175 23.495 21.59)
 		(uuid "80a246e1-6262-47b4-a536-293b47e95450")
 		(cells

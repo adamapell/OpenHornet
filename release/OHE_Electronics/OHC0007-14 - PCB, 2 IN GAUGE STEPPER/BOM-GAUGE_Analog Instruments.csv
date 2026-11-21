@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1uF,C1,C_0603_1608Metric,C14663,1
+10K,R1,R_0603_1608Metric,C25804,1
+10uF,C2,C_0603_1608Metric,C96446,1
+DRV8847PWR,U1,TSSOP-16_4.4x5mm_P0.65mm,C701803,1
+PinHeader_2x06,J5,PinHeader_2x06_P2.54mm_Vertical,C124388,1
+1938,D2,LED_D5.0mm-4_RGB,,1
+1938,D1,LED_D5.0mm-4_RGB,,1
+VID29-02,M1,VID29-02,,1
+ZERO,J4,PinHeader_1x03_P2.54mm_Vertical,,1
+MountingHole,H3,MountingHole_2.5mm,,1
+MountingHole,H2,MountingHole_2.5mm,,1
+MountingHole,H1,MountingHole_2.5mm,,1

@@ -77,7 +77,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|145077766|85322074|00000000-0000-0000-0000-000061391f74|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -558,7 +563,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "GAUGE_Analog Instruments.step",
+      "step": "MCAD/GAUGE_Analog Instruments.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -705,7 +710,7 @@
         "uuid": "73b32b5d-03c1-4da0-86a6-bf0e6feee74d"
       }
     ],
-    "used_designators": "J2-3,J5-6,#PWR14,#PWR103-104",
+    "used_designators": "J2-7,#PWR14-15,#PWR103-106",
     "variants": []
   },
   "sheets": [
